@@ -18,7 +18,7 @@ def get_response(user_input):
 
     # Name
     elif 'your name' in user_input or 'who are you' in user_input:
-        return "I'm GunnBot, your personal assistant built by Gunn Fulwani!"
+        return "I'm HexaBot, your personal assistant built by Gunn Fulwani!"
 
     # Creator
     elif 'who made you' in user_input or 'who created you' in user_input or 'who built you' in user_input:
@@ -85,7 +85,7 @@ def get_response(user_input):
 
 def chatbot():
     print("=" * 45)
-    print("             GUNNBOT")
+    print("             HexaBOT")
     print("      Your Personal CLI Assistant")
     print("=" * 45)
     print("Type 'bye' to exit.")
@@ -98,7 +98,7 @@ def chatbot():
             continue
 
         response = get_response(user_input)
-        print(f"GunnBot: {response}")
+        print(f"HexaBot: {response}")
         print()
 
         if user_input.lower() in ['bye', 'goodbye', 'exit', 'quit', 'see you']:
@@ -106,3 +106,4 @@ def chatbot():
 
 
 chatbot()
+
